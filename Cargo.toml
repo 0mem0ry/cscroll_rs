@@ -1,0 +1,10 @@
+[package]
+name = "cscroll_rs"
+version = "0.1.0-rc0"
+edition = "2021"
+authors = [ "배현호 "]
+description = "cscroll rewritten in Rust (https://github.com/Raniconduh/cscroll.git)"
+
+[dependencies]
+libc = "0.2.126"
+ncurses = "5.101.0"
